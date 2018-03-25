@@ -1,0 +1,9 @@
+spring.application.name: appraisal
+spring.cloud.vault:
+    uri: http://172.16.17.196:8200
+    authentication: APPROLE
+    app-role:
+        role-id: 9ff51363-08a4-6e62-19b9-ffb55baf91c0
+        secret-id: b6827b76-84a1-3adb-5f9e-4c896bee21cf
+        app-auth-path: approle
+        
